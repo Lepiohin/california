@@ -1,0 +1,48 @@
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 28px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 10;
+}
+@media( max-width:767.9px){
+	.header{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 80px;
+		padding: 0 12px;
+	}
+}
+.logo {
+	padding: 0 10px 0 0;
+}
+.menu__list {
+	display: flex;
+}
+.nav-link {
+	text-transform: uppercase;
+	color: #000000;
+}
+.header-btn {
+	cursor: pointer;
+	background: transparent;
+}
+.header-btn:first-child{
+	max-width: 28px;
+}
+.header-btn:last-child{
+	max-width: 48px;
+}
+.header-btn:not(:last-child){
+	margin: 0 13px 0 0;
+}
+.header-btn img{
+	width: 100%;
+}
